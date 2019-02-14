@@ -2,7 +2,7 @@ var Service, Characteristic;
 const request = require('request');
 
 const DEF_TIMEOUT = 3000, //3s
-      DEF_INTERVAL = 60000; //60s
+      DEF_INTERVAL = 1000; //1s
 
 module.exports = function (homebridge) {
    Service = homebridge.hap.Service;
